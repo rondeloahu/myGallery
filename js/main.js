@@ -1,4 +1,4 @@
-console.log('Starting up');
+
 // global vars
 var gProjects = [
     {
@@ -6,7 +6,7 @@ var gProjects = [
         name: "Book Store",
         title: "Easy to use - online book store",
         desc: "A way to sell your books online",
-        url: `/proj/1/index.html`,
+        url: `proj/1/index.html`,
         publishedAt: Date.now(),
         labels: ["Matrixes", "keyboard events"],
     },
@@ -15,7 +15,7 @@ var gProjects = [
         name: "Mine Sweeper",
         title: "Minesweeper game",
         desc: "Best way to burn some time on",
-        url: `/proj/2/index.html`,
+        url: `proj/2/index.html`,
         publishedAt: Date.now(),
         labels: ["Matrixes", "keyboard events"],
     },
@@ -24,7 +24,7 @@ var gProjects = [
         name: "Picture Pick",
         title: "Pick the right Pic",
         desc: "Fun game to play with",
-        url: `/proj/3/index.html`,
+        url: `proj/3/index.html`,
         publishedAt: Date.now(),
         labels: ["Matrixes", "keyboard events"],
     },
@@ -33,7 +33,7 @@ var gProjects = [
         name: "Touch The Num",
         title: "Touch the spesific number",
         desc: "go test your skills in touch the number game",
-        url: `/proj/4/index.html`,
+        url: `proj/4/index.html`,
         publishedAt: Date.now(),
         labels: ["Matrixes", "keyboard events"],
     },
@@ -42,7 +42,7 @@ var gProjects = [
         name: "Pop the Ballon",
         title: "Popin ballons is fun",
         desc: "Can you pop ballon? and what about three? go ahead!",
-        url: `/proj/5/index.html`,
+        url: `proj/5/index.html`,
         publishedAt: Date.now(),
         labels: ["Matrixes", "keyboard events"],
     }
