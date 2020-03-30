@@ -49,6 +49,7 @@ function onSendMail() {
 }
 
 function getToProj(url) {
+    console.log(url);
   window.open(url, '_blank');
 }
 
