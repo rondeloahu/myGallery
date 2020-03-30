@@ -1,0 +1,42 @@
+body {
+    background: lightblue url("/skys.jpeg") no-repeat center;
+    background-size: cover;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.balloon {
+    width: 70px;
+    height: 90px;
+    border-radius: 65%;
+    position: absolute;
+    bottom: 0;
+    transition: opacity 1.5s;
+
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+}
+
+.wayUp {
+    height: 1000px;
+    bottom: 0;
+    margin-left: 25%;
+    width: 800px;
+}
+
+.balloon1 {
+    background-color: red;
+    margin-left: 25%;
+}
+
+.balloon2 {
+    background-color: black;
+    margin-left: 40%;
+}
+
+.balloon3 {
+    background-color: white;
+    margin-left: 15%;
+}
+

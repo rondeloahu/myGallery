@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <ul class="nav-bar"></div>
+    <li class="login-bar">
+        <a>🏠Home</a>
+        <!-- <input type="name" name="user" placeholder="Enter username">
+        <input type="password" name="pass" placeholder="Enter password">
+        <button>login</button> -->
+    </li>
+    <li><a>👤Login</a></li>
+    <li><a>📝Register</a></li>
+    <li><a>🧾Buy</a></li>
+</ul>
+    <div class="body-container">
+        <header>
+            <h1>📚Books for Sale🖋</h1>
+            <h3>Welcome to our humble shop</h3>
+        </header>
+        <button class="add-book" type="button" onclick="onShowAddBook()">Add New Book</button>
+        <section class="Book-edit" hidden>
+            NAME: <input type="name" name="name-book">
+            PRICE: <input type="number" name="price">
+            <button class="save-it" onclick="onSaveBook()">Save</button>
+        </section>
+        <section class="Books-container"></section>
+        <button onclick="onNextPage()">Next Page &gt; </button>
+        <div class="modal" hidden>
+            <h5></h5>
+            <span class="book-img"></span>
+            <div class="rating">Rate: <button>-</button><span></span><button>+</button></div>
+
+            <h6></h6>
+            <p></p>
+            <button onclick="onCloseModal()">Close</button>
+        </div>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/book-service.js"></script>
+    <script src="js/book-controller.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mine Sweeper - Gal Rondel </title>
+</head>
+
+<body onload="init()">
+    <div class="warper">
+        <h1>Mine Sweeper</h1>
+        <div>
+            <label onclick="chnageDiff(this)" class="container easy">Easy
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label onclick="chnageDiff(this)" class="container hard">Normal
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label onclick="chnageDiff(this)" class="container extreme">Hard
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <label onclick="chnageDiff(this)" class="container Manualy">Manualy
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div>
+            <div class="hp-show">
+                <div>
+                    <span class="hp-btn">💙</span>
+                    <span class="hp-btn">💙</span>
+                    <span class="hp-btn">💙</span>
+                </div>
+                <div>Lives left</div>
+            </div>
+            </divclass="hint-show">
+            <button class="btn" onclick="resetGame(this)">😁</button>
+            <div class="hint-show">
+                <div>
+                    <button class="hint-btn" onclick="getHint(this)">💡</button>
+                    <button class="hint-btn" onclick="getHint(this)">💡</button>
+                    <button class="hint-btn" onclick="getHint(this)">💡</button>
+                </div>
+                <div>hints left</div>
+            </div>
+        </div>
+        <div>
+            <div class="how-much"><span>0</span> mines hidden</div>
+            <div class="timing">time: <span>0</span> seconds</div>
+        </div>
+        <div class="msg hideElem">Game Over!</div>
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+        <button class="safe-btn" onclick="safeClick(this)">Safe Click [<span>3</span>]</button>
+        <div class="records">your record in this diff is: <span>0</span> sec</div>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/mines.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>

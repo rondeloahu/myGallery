@@ -1,0 +1,322 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+    height: 100%;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.warper {
+    background-color: rgb(11, 2, 44);
+    height: 780px;
+    width: 500px;
+    margin: auto;
+    padding: 2%;
+    border: 4px solid rgb(47, 47, 99);
+    border-radius: 20%;
+}
+
+.warper-big {
+    background-color: rgb(11, 2, 44);
+    height: 1050px;
+    width: 780px;
+    margin: auto;
+    padding: 2%;
+    border: 4px solid rgb(47, 47, 99);
+    border-radius: 20%;
+}
+
+.btn {
+    font-size: 2.5em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: auto 0 auto auto;
+    display: inline;
+    transition: 0.5s;
+    cursor:  pointer;
+}
+
+.btn:hover {
+    font-size: 3em;
+    background-color: grey;
+}
+
+table {
+    margin: 1% auto auto auto;
+    color: black;
+    border: 2px solid blanchedalmond;
+}
+
+.blown {
+    background-color: rgba(255, 15, 15, 0.568);
+}
+
+.upper-card {
+    font-size: 2.1em;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+    cursor:  pointer;
+}
+
+.upper-card:hover {
+    background-color: cornflowerblue;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.3s;
+}
+
+td div {
+    font-size: 2.1em;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.occupied {
+    background-color: rgba(85, 173, 227, 0.447);
+}
+
+.mark {
+    background-color: cornflowerblue;
+}
+
+/* -------------------- START COLORS -------------- */
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: green;
+}
+
+.three {
+    color: yellow;
+}
+
+.four {
+    color: orange;
+}
+
+.five {
+    color: red;
+}
+
+/* -------------------- END COLORS -------------- */
+
+.how-much {
+    margin: 1% auto;
+    color: #fff;
+    ;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width: 190px;
+    height: 20px;
+}
+
+.timing {
+    margin: 1% auto;
+    color: #fff;
+    ;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+
+.how-much span {
+    color: rgba(255, 15, 15);
+}
+
+.hint-show {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width: 140px;
+    height: 80px;
+    border: 1.2px solid wheat;
+}
+
+.hint-show button {
+    font-size: 0.8em;
+    background-color: rgb(11, 2, 44);
+    border: 0.2px solid blanchedalmond;
+    border-radius: 50%;
+    font-weight: bold;
+    transition: 0.8s;
+    cursor:  pointer;
+}
+
+.hint-show button:hover {
+    font-size: 1em;
+    background-color: blanchedalmond;
+}
+
+.hp-show div {
+    padding-top: 5%;
+}
+
+.hp-show {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width: 140px;
+    height: 80px;
+    border: 1.2px solid wheat;
+}
+
+.hp-show span {
+    font-size: 0.8em;
+    background-color: rgb(11, 2, 44);
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+.hp-show span:hover {
+    font-size: 1.4em;
+}
+
+.hp-show div {
+    padding-top: 5%;
+}
+
+.msg {
+    margin: 1% auto auto;
+    background-color: #fff;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+}
+
+.safe-btn {
+    font-size: 1.4em;
+    margin: 2% auto;
+    border-radius: 25px;
+    color: wheat;
+    background-color: rgba(96, 96, 212, 0.616);
+    padding: 10px;
+    transition: 0.7s;
+    cursor:  pointer;
+}
+
+.safe-btn:hover {
+    font-size: 1.6em;
+    background-color: rgba(49, 49, 107, 0.616);
+}
+
+.safe-btn span {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+.disable-btn {
+    background-color: rgba(24, 24, 54, 0.616);
+    pointer-events: none;
+}
+
+/* hide element class */
+
+.hideElem {
+    display: none;
+}
+
+/* -------------------------------check radio------------------------------ */
+
+/* The container */
+
+.container {
+    color: antiquewhite;
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    padding-top: 5px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 2%;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.container:hover {
+    font-size: 1.5em;
+}
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
+    background-color: rgba(83, 73, 135, 0.571);
+}
+
+/* When the radio button is checked, add a blue background */
+
+.container input:checked~.checkmark {
+    background-color: #7daedd;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}

@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url('../img/books.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 857px;
+}
+
+.body-container {
+    width: 80%;
+    height: 600px;
+    background-color: rgba(238, 178, 126, 0.652);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+header {
+    background-color: rgba(242, 230, 101, 0.521);
+    border: 2px solid black;
+    padding: 2px;
+    margin-bottom: 5px;
+    width: 60%;
+    border-radius: 20PX;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+header h1 {
+    color: black;
+    font-size: 4.2em;
+    font-weight: bold;
+}
+
+.Books-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Book-preview {
+    width: 30%;
+    margin: 5px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.399);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.id-count {
+    color: lightgrey;
+    font-size: 0.8em;
+}
+
+.Book-preview .Bookd-title {
+    text-transform: capitalize;
+    color: rgb(228, 186, 93);
+    display: block;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.delete-btn {
+    background-color: rgba(220, 20, 20, 0.634);
+}
+
+.read-btn {
+    background-color: rgba(0, 255, 123, 0.632);
+}
+
+.update-btn {
+    background-color: rgba(255, 153, 0, 0.632);
+}
+
+.Book-preview button {
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 3px;
+    width: 70px;
+    font-size: 1em;
+    border-radius: 20px;
+}
+
+.modal {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 10px;
+    position: absolute;
+    border-radius: 20px;
+    opacity: 0.9;
+    top: 25%;
+    left: 50%;
+    height: 65%;
+    min-width: 300px;
+    text-align: center;
+}
+
+.modal .book-img {
+    font-size: 9em;
+}
+
+.add-book {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 20px;
+    background-color: burlywood;
+}
+
+.add-book:hover {
+    background-color: rgb(157, 131, 97);
+}
+
+.Book-edit {
+    background-color: rgb(238, 185, 139);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(254, 213, 111);
+    position: fixed;
+    border-bottom: 2px solid black;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+}
+
+li {
+    float: left;
+    height: 100%;
+    display: flex;
+    width: 10%;
+}
+
+li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(225, 188, 96);
+}
+
+.active {
+    background-color: #4CAF50;
+}

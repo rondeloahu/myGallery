@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Touch The Nums</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Touch The Nums</h1>
+        <div>
+            <label onclick="chnageDiff(this)" class="container easy">Easy
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label onclick="chnageDiff(this)" class="container hard">Hard
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label onclick="chnageDiff(this)" class="container extreme">Extreme
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label onclick="chnageDiff(this)" class="container Nuts">Good Luck
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+        <div class="msg">Next Number:<span></span> </div>
+        <div class="best">best time in this diff: <span>00:00</span></div>
+        <div class="timing">timer: <span>00:00</span> sec</div>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

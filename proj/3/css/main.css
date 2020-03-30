@@ -1,0 +1,62 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 3em;
+}
+.msg{
+    background-color: black;
+    color: red;
+    font-size: 2em;
+    margin-top: 45%;
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+}
+.answer{
+    margin-top: 3%;
+    width: 70%;
+    height: 34%;
+    display: block;
+    margin-left: 17%;
+    font-size: 1.2em;
+}
+.board {
+    margin-left: 20%;
+    top:0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff432+6,fcaa2f+67,a58100+100&1+0,0.9+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,244,50,1) 0%, rgba(255,244,50,0.99) 6%, rgba(252,170,47,0.93) 67%, rgba(165,129,0,0.9) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,244,50,1) 0%,rgba(255,244,50,0.99) 6%,rgba(252,170,47,0.93) 67%,rgba(165,129,0,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(255,244,50,1) 0%,rgba(255,244,50,0.99) 6%,rgba(252,170,47,0.93) 67%,rgba(165,129,0,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff432', endColorstr='#e6a58100',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    width: 800px;
+    height: 800px;
+    text-align: center;
+}
+.picture {
+    top:10;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    border: 2px solid black;
+    position: absolute;
+    right: 47%;
+}
+
+.answers{
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 4%;
+    font-size: 2.2em;
+    color: whitesmoke;
+    border: 1px solid black;
+    margin-top: 3%;
+    position: absolute;
+}
